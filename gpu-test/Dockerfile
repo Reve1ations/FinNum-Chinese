@@ -1,5 +1,5 @@
 # 指定基础镜像，选择我之前制作的paddle镜像
-FROM hub.data.wust.edu.cn:30880/tufeiming/paddle:1.6.3-gpu-cuda10.0-cudnn7
+FROM hub.data.wust.edu.cn:30880/nlp/paddle:1.6.3-gpu-cuda10.0-cudnn7
 
 # 将工程下面的文件复制到容器某个目录
 COPY ./ /home/Model
