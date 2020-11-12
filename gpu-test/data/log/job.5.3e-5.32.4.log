@@ -1,0 +1,157 @@
+2020-06-22 20:28:56,034-INFO: -----------  Configuration Arguments -----------
+[INFO] 2020-06-22 20:28:56,034 [     args.py:   68]:	-----------  Configuration Arguments -----------
+2020-06-22 20:28:56,034-INFO: batch_size: 32
+[INFO] 2020-06-22 20:28:56,034 [     args.py:   70]:	batch_size: 32
+2020-06-22 20:28:56,034-INFO: checkpoints: ./checkpoints
+[INFO] 2020-06-22 20:28:56,034 [     args.py:   70]:	checkpoints: ./checkpoints
+2020-06-22 20:28:56,034-INFO: chunk_scheme: IOB
+[INFO] 2020-06-22 20:28:56,034 [     args.py:   70]:	chunk_scheme: IOB
+2020-06-22 20:28:56,034-INFO: decr_every_n_nan_or_inf: 2
+[INFO] 2020-06-22 20:28:56,034 [     args.py:   70]:	decr_every_n_nan_or_inf: 2
+2020-06-22 20:28:56,035-INFO: decr_ratio: 0.8
+[INFO] 2020-06-22 20:28:56,035 [     args.py:   70]:	decr_ratio: 0.8
+2020-06-22 20:28:56,035-INFO: dev_set: D:/Codes/Model/data/MAMS-ATSA/processed/dev.npz
+[INFO] 2020-06-22 20:28:56,035 [     args.py:   70]:	dev_set: D:/Codes/Model/data/MAMS-ATSA/processed/dev.npz
+2020-06-22 20:28:56,035-INFO: diagnostic: None
+[INFO] 2020-06-22 20:28:56,035 [     args.py:   70]:	diagnostic: None
+2020-06-22 20:28:56,035-INFO: diagnostic_save: None
+[INFO] 2020-06-22 20:28:56,035 [     args.py:   70]:	diagnostic_save: None
+2020-06-22 20:28:56,035-INFO: do_lower_case: True
+[INFO] 2020-06-22 20:28:56,035 [     args.py:   70]:	do_lower_case: True
+2020-06-22 20:28:56,035-INFO: do_test: True
+[INFO] 2020-06-22 20:28:56,035 [     args.py:   70]:	do_test: True
+2020-06-22 20:28:56,035-INFO: do_train: True
+[INFO] 2020-06-22 20:28:56,035 [     args.py:   70]:	do_train: True
+2020-06-22 20:28:56,035-INFO: do_val: True
+[INFO] 2020-06-22 20:28:56,035 [     args.py:   70]:	do_val: True
+2020-06-22 20:28:56,035-INFO: doc_stride: 128
+[INFO] 2020-06-22 20:28:56,035 [     args.py:   70]:	doc_stride: 128
+2020-06-22 20:28:56,035-INFO: enable_ce: False
+[INFO] 2020-06-22 20:28:56,035 [     args.py:   70]:	enable_ce: False
+2020-06-22 20:28:56,035-INFO: epoch: 4
+[INFO] 2020-06-22 20:28:56,035 [     args.py:   70]:	epoch: 4
+2020-06-22 20:28:56,035-INFO: ernie_config_path: D:/Codes/Model/ERNIE_Base_en_stable-2.0.0/ernie_config.json
+[INFO] 2020-06-22 20:28:56,035 [     args.py:   70]:	ernie_config_path: D:/Codes/Model/ERNIE_Base_en_stable-2.0.0/ernie_config.json
+2020-06-22 20:28:56,035-INFO: for_cn: False
+[INFO] 2020-06-22 20:28:56,035 [     args.py:   70]:	for_cn: False
+2020-06-22 20:28:56,035-INFO: in_tokens: False
+[INFO] 2020-06-22 20:28:56,035 [     args.py:   70]:	in_tokens: False
+2020-06-22 20:28:56,035-INFO: incr_every_n_steps: 100
+[INFO] 2020-06-22 20:28:56,035 [     args.py:   70]:	incr_every_n_steps: 100
+2020-06-22 20:28:56,036-INFO: incr_ratio: 2.0
+[INFO] 2020-06-22 20:28:56,036 [     args.py:   70]:	incr_ratio: 2.0
+2020-06-22 20:28:56,036-INFO: init_checkpoint: None
+[INFO] 2020-06-22 20:28:56,036 [     args.py:   70]:	init_checkpoint: None
+2020-06-22 20:28:56,036-INFO: init_loss_scaling: 102400
+[INFO] 2020-06-22 20:28:56,036 [     args.py:   70]:	init_loss_scaling: 102400
+2020-06-22 20:28:56,036-INFO: init_pretraining_params: D:/Codes/Model/ERNIE_Base_en_stable-2.0.0/params
+[INFO] 2020-06-22 20:28:56,036 [     args.py:   70]:	init_pretraining_params: D:/Codes/Model/ERNIE_Base_en_stable-2.0.0/params
+2020-06-22 20:28:56,036-INFO: is_classify: True
+[INFO] 2020-06-22 20:28:56,036 [     args.py:   70]:	is_classify: True
+2020-06-22 20:28:56,036-INFO: is_distributed: False
+[INFO] 2020-06-22 20:28:56,036 [     args.py:   70]:	is_distributed: False
+2020-06-22 20:28:56,036-INFO: is_regression: False
+[INFO] 2020-06-22 20:28:56,036 [     args.py:   70]:	is_regression: False
+2020-06-22 20:28:56,036-INFO: label_map_config: None
+[INFO] 2020-06-22 20:28:56,036 [     args.py:   70]:	label_map_config: None
+2020-06-22 20:28:56,036-INFO: learning_rate: 3e-05
+[INFO] 2020-06-22 20:28:56,036 [     args.py:   70]:	learning_rate: 3e-05
+2020-06-22 20:28:56,036-INFO: lr_scheduler: linear_warmup_decay
+[INFO] 2020-06-22 20:28:56,036 [     args.py:   70]:	lr_scheduler: linear_warmup_decay
+2020-06-22 20:28:56,036-INFO: max_answer_length: 100
+[INFO] 2020-06-22 20:28:56,036 [     args.py:   70]:	max_answer_length: 100
+2020-06-22 20:28:56,036-INFO: max_query_length: 64
+[INFO] 2020-06-22 20:28:56,036 [     args.py:   70]:	max_query_length: 64
+2020-06-22 20:28:56,036-INFO: max_seq_len: 128
+[INFO] 2020-06-22 20:28:56,036 [     args.py:   70]:	max_seq_len: 128
+2020-06-22 20:28:56,036-INFO: metric: acc_and_f1
+[INFO] 2020-06-22 20:28:56,036 [     args.py:   70]:	metric: acc_and_f1
+2020-06-22 20:28:56,036-INFO: metrics: True
+[INFO] 2020-06-22 20:28:56,036 [     args.py:   70]:	metrics: True
+2020-06-22 20:28:56,037-INFO: n_best_size: 20
+[INFO] 2020-06-22 20:28:56,037 [     args.py:   70]:	n_best_size: 20
+2020-06-22 20:28:56,037-INFO: num_iteration_per_drop_scope: 1
+[INFO] 2020-06-22 20:28:56,037 [     args.py:   70]:	num_iteration_per_drop_scope: 1
+2020-06-22 20:28:56,037-INFO: num_labels: 3
+[INFO] 2020-06-22 20:28:56,037 [     args.py:   70]:	num_labels: 3
+2020-06-22 20:28:56,037-INFO: predict_batch_size: None
+[INFO] 2020-06-22 20:28:56,037 [     args.py:   70]:	predict_batch_size: None
+2020-06-22 20:28:56,037-INFO: random_seed: 1
+[INFO] 2020-06-22 20:28:56,037 [     args.py:   70]:	random_seed: 1
+2020-06-22 20:28:56,037-INFO: save_steps: 10000
+[INFO] 2020-06-22 20:28:56,037 [     args.py:   70]:	save_steps: 10000
+2020-06-22 20:28:56,037-INFO: shuffle: True
+[INFO] 2020-06-22 20:28:56,037 [     args.py:   70]:	shuffle: True
+2020-06-22 20:28:56,037-INFO: skip_steps: 10
+[INFO] 2020-06-22 20:28:56,037 [     args.py:   70]:	skip_steps: 10
+2020-06-22 20:28:56,037-INFO: task: term
+[INFO] 2020-06-22 20:28:56,037 [     args.py:   70]:	task: term
+2020-06-22 20:28:56,037-INFO: task_id: 0
+[INFO] 2020-06-22 20:28:56,037 [     args.py:   70]:	task_id: 0
+2020-06-22 20:28:56,037-INFO: test_save: output/test_out.5.3e-5.32.4.xml
+[INFO] 2020-06-22 20:28:56,037 [     args.py:   70]:	test_save: output/test_out.5.3e-5.32.4.xml
+2020-06-22 20:28:56,038-INFO: test_set: D:/Codes/Model/data/MAMS-ATSA/processed/test.npz
+[INFO] 2020-06-22 20:28:56,038 [     args.py:   70]:	test_set: D:/Codes/Model/data/MAMS-ATSA/processed/test.npz
+2020-06-22 20:28:56,038-INFO: tokenizer: FullTokenizer
+[INFO] 2020-06-22 20:28:56,038 [     args.py:   70]:	tokenizer: FullTokenizer
+2020-06-22 20:28:56,038-INFO: train_set: D:/Codes/Model/data/MAMS-ATSA/processed/train.npz
+[INFO] 2020-06-22 20:28:56,038 [     args.py:   70]:	train_set: D:/Codes/Model/data/MAMS-ATSA/processed/train.npz
+2020-06-22 20:28:56,038-INFO: use_cuda: True
+[INFO] 2020-06-22 20:28:56,038 [     args.py:   70]:	use_cuda: True
+2020-06-22 20:28:56,038-INFO: use_dynamic_loss_scaling: True
+[INFO] 2020-06-22 20:28:56,038 [     args.py:   70]:	use_dynamic_loss_scaling: True
+2020-06-22 20:28:56,038-INFO: use_fast_executor: True
+[INFO] 2020-06-22 20:28:56,038 [     args.py:   70]:	use_fast_executor: True
+2020-06-22 20:28:56,038-INFO: use_fp16: False
+[INFO] 2020-06-22 20:28:56,038 [     args.py:   70]:	use_fp16: False
+2020-06-22 20:28:56,038-INFO: use_multi_gpu_test: False
+[INFO] 2020-06-22 20:28:56,038 [     args.py:   70]:	use_multi_gpu_test: False
+2020-06-22 20:28:56,038-INFO: validation_steps: 100000000000
+[INFO] 2020-06-22 20:28:56,038 [     args.py:   70]:	validation_steps: 100000000000
+2020-06-22 20:28:56,038-INFO: verbose: True
+[INFO] 2020-06-22 20:28:56,038 [     args.py:   70]:	verbose: True
+2020-06-22 20:28:56,038-INFO: vocab_path: D:/Codes/Model/ERNIE_Base_en_stable-2.0.0/vocab.txt
+[INFO] 2020-06-22 20:28:56,038 [     args.py:   70]:	vocab_path: D:/Codes/Model/ERNIE_Base_en_stable-2.0.0/vocab.txt
+2020-06-22 20:28:56,038-INFO: warmup_proportion: 0.1
+[INFO] 2020-06-22 20:28:56,038 [     args.py:   70]:	warmup_proportion: 0.1
+2020-06-22 20:28:56,038-INFO: weight_decay: 0.0
+[INFO] 2020-06-22 20:28:56,038 [     args.py:   70]:	weight_decay: 0.0
+2020-06-22 20:28:56,038-INFO: ------------------------------------------------
+[INFO] 2020-06-22 20:28:56,038 [     args.py:   71]:	------------------------------------------------
+2020-06-22 20:28:56,039-INFO: attention_probs_dropout_prob: 0.1
+[INFO] 2020-06-22 20:28:56,039 [    ernie.py:   52]:	attention_probs_dropout_prob: 0.1
+2020-06-22 20:28:56,039-INFO: hidden_act: gelu
+[INFO] 2020-06-22 20:28:56,039 [    ernie.py:   52]:	hidden_act: gelu
+2020-06-22 20:28:56,039-INFO: hidden_dropout_prob: 0.1
+[INFO] 2020-06-22 20:28:56,039 [    ernie.py:   52]:	hidden_dropout_prob: 0.1
+2020-06-22 20:28:56,039-INFO: hidden_size: 768
+[INFO] 2020-06-22 20:28:56,039 [    ernie.py:   52]:	hidden_size: 768
+2020-06-22 20:28:56,039-INFO: initializer_range: 0.02
+[INFO] 2020-06-22 20:28:56,039 [    ernie.py:   52]:	initializer_range: 0.02
+2020-06-22 20:28:56,039-INFO: max_position_embeddings: 512
+[INFO] 2020-06-22 20:28:56,039 [    ernie.py:   52]:	max_position_embeddings: 512
+2020-06-22 20:28:56,039-INFO: num_attention_heads: 12
+[INFO] 2020-06-22 20:28:56,039 [    ernie.py:   52]:	num_attention_heads: 12
+2020-06-22 20:28:56,039-INFO: num_hidden_layers: 12
+[INFO] 2020-06-22 20:28:56,039 [    ernie.py:   52]:	num_hidden_layers: 12
+2020-06-22 20:28:56,040-INFO: sent_type_vocab_size: 4
+[INFO] 2020-06-22 20:28:56,040 [    ernie.py:   52]:	sent_type_vocab_size: 4
+2020-06-22 20:28:56,040-INFO: task_type_vocab_size: 16
+[INFO] 2020-06-22 20:28:56,040 [    ernie.py:   52]:	task_type_vocab_size: 16
+2020-06-22 20:28:56,040-INFO: vocab_size: 30522
+[INFO] 2020-06-22 20:28:56,040 [    ernie.py:   52]:	vocab_size: 30522
+2020-06-22 20:28:56,040-INFO: ------------------------------------------------
+[INFO] 2020-06-22 20:28:56,040 [    ernie.py:   53]:	------------------------------------------------
+2020-06-22 20:28:56,247-INFO: Device count: 1
+[INFO] 2020-06-22 20:28:56,247 [run_classifier.py:  106]:	Device count: 1
+2020-06-22 20:28:56,247-INFO: Num train examples: 11186
+[INFO] 2020-06-22 20:28:56,247 [run_classifier.py:  107]:	Num train examples: 11186
+2020-06-22 20:28:56,247-INFO: Max train steps: 1398
+[INFO] 2020-06-22 20:28:56,247 [run_classifier.py:  108]:	Max train steps: 1398
+2020-06-22 20:28:56,247-INFO: Num warmup steps: 139
+[INFO] 2020-06-22 20:28:56,247 [run_classifier.py:  109]:	Num warmup steps: 139
+2020-06-22 20:29:00,058-INFO: Theoretical memory usage in training: 17039.906 - 17851.330 MB
+[INFO] 2020-06-22 20:29:00,058 [run_classifier.py:  150]:	Theoretical memory usage in training: 17039.906 - 17851.330 MB
+2020-06-22 20:29:05,418-INFO: Load pretraining parameters from D:/Codes/Model/ERNIE_Base_en_stable-2.0.0/params.
+[INFO] 2020-06-22 20:29:05,418 [     init.py:   90]:	Load pretraining parameters from D:/Codes/Model/ERNIE_Base_en_stable-2.0.0/params.
+*** Check failure stack trace: ***

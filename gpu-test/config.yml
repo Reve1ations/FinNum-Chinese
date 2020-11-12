@@ -1,0 +1,7 @@
+mode: category  # 自行更改任务 term或category
+base_path: ./data/MAMS-ACSA   # 更改任务路径
+lowercase: True  # 小写
+max_vocab_size: None
+min_vocab_freq: 0
+max_seq_len: 128
+do_lower_case: True
